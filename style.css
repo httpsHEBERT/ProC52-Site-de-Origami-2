@@ -1,0 +1,132 @@
+/*|*|*|*|*|*|*|*/ /*|*|*|*|*|*|*|*/ /*|*|*|*|*|*|*|*/ /*|*|*|*|*|*|*|*/ /*|*|*|*|*|*|*|*/
+/*  █████████  */ /*  █████████  */ /*  █████████  */ /*  █████████  */ /*  █████████  */
+/*  █▄█████▄█  */ /*  █▄█████▄█  */ /*  █▄█████▄█  */ /*  █▄█████▄█  */ /*  █▄█████▄█  */
+/*  █▼▼▼▼▼     */ /*  █▼▼▼▼▼     */ /*  █▼▼▼▼▼     */ /*  █▼▼▼▼▼     */ /*  █▼▼▼▼▼     */
+/*  █          */ /*  █          */ /*  █          */ /*  █          */ /*  █          */
+/*  Origami.me */ /*  Origami.me */ /*  Origami.me */ /*  Origami.me */ /*  Origami.me */
+/*  █▲▲▲▲▲     */ /*  █▲▲▲▲▲     */ /*  █▲▲▲▲▲     */ /*  █▲▲▲▲▲     */ /*  █▲▲▲▲▲     */
+/*  █████████  */ /*  █████████  */ /*  █████████  */ /*  █████████  */ /*  █████████  */
+/*  █████████  */ /*  █████████  */ /*  █████████  */ /*  █████████  */ /*  █████████  */
+/*   ██ ██     */ /*   ██ ██     */ /*   ██ ██     */ /*   ██ ██     */ /*   ██ ██     */
+/*|*|*|*|*|*|*|*/ /*|*|*|*|*|*|*|*/ /*|*|*|*|*|*|*|*/ /*|*|*|*|*|*|*|*/ /*|*|*|*|*|*|*|*/
+
+
+/*Corpo*/
+
+body{
+    margin: 0px;
+    background-image: linear-gradient(to bottom, #C9CBA3, #9f9494, #515151);
+}
+
+
+/*Menu*/
+
+.menu{
+    display: flex;
+    height: 180px;
+    padding: 20px 0;
+    font-size: 45px;
+    font-weight: 400;
+    color: #E26D5C;
+    position: relative;
+    align-items: center;
+    font-family: cursive;
+    background-size: 100% 100%;
+    justify-content: space-between;
+    -webkit-text-stroke: 2.5px #723D47;
+    background-image: url("Images/banner.jpg");
+}
+
+.menu h3{
+    text-decoration: underline #723D47;
+}
+
+.menu a{
+    color: #723D47;
+    position: absolute;
+    text-decoration: none;
+    transform: translate(-150%, -29%);
+}
+
+.menu a:hover{
+    color: #470511b5;
+}
+
+.menu a:visited{
+    color: #E26D5C;
+}
+
+
+/*Texto*/
+
+.texto p{
+    margin: 0;
+    font-size: 50px;
+    color: #462D31;
+    text-align: center;
+}
+
+.texto h3{
+    font-size: 28px;
+    color: #2B2B2B;
+    margin: auto 40px;
+    text-align: justify;
+    margin-bottom: -20px;
+}
+
+
+/*Origamis*/
+
+.grade{
+    margin: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    justify-content: center;
+}
+
+.origami {
+    width:310px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 18px;
+    text-align: justify;
+    padding-right: 40px;
+    border-radius: 30px;
+    font-family: fantasy;
+    background-color: #FFE0A7;
+    border: 10px double #000;
+}
+
+.origami:hover{
+    transform: scale(1.1);
+}
+
+.origami img{
+    border-radius: 50px;
+    background-color: #efcc8a80;
+    border: 2.5px solid #b5935580;
+}
+
+.origami img:hover{
+    border-radius: 60px;
+    transform: scale(0.9);
+    background-color: #EFCC8A;
+    border: 2.5px solid #b59355;
+}
+
+
+/*Rodapé*/
+
+.rodape a{
+    color: #fff;
+    display: flex;
+    font-size: 40px;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.rodape a:hover{
+    color: #C2BEBE;
+}
